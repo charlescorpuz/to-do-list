@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+}
+
+.row {
+    align-items: center;
+    background: #edeef0;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    padding-left: 20px;
+}
+
+input {
+    background: transparent;
+    border: none;
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    background: #000;
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 16px 50px;
+}
+
+ul li {
+    cursor: pointer;
+    list-style: none;
+    padding: 12px 8px 12px 50px;
+    position: relative;
+}
+
+ul li::before {
+    background: #000;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    content: '';
+    height: 28px;
+    position: absolute;
+    top: 12px;
+    left: 8px;
+    width: 28px;
+}
+
+ul li.checked {
+    color: #555;
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    background-image: url();
+}
+
+ul li span {
+    border-radius: 50%;
+    color: #555;
+    font-size: 22px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 5px;
+    width: 40px;
+}
+
+ul li span:hover {
+    background: #edeef0;
+}
