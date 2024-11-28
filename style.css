@@ -1,38 +1,53 @@
 * {
+    font-size: 100%;
     margin: 0;
     padding: 0;
     text-decoration: 0;
 }
 
-.row {
-    align-items: center;
-    background: #edeef0;
-    border-radius: 30px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 25px;
-    padding-left: 20px;
+body {
+    background: #000;
 }
 
-input {
-    background: transparent;
+h2 {
+    color: #00AAFF;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4.5rem;
+    font-weight: 400;
+}
+
+p {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 25px 0px;
+}
+
+input[type=text] {
     border: none;
-    flex: 1;
-    padding: 10px;
+    border-radius: 5px;
+    color: #D8D8D8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 15px 27px;
 }
 
 button {
-    background: #000;
+    background-color: #00AAFF;
     border: none;
-    border-radius: 40px;
+    border-radius: 5px;
     color: #fff;
-    cursor: pointer;
-    outline: none;
-    padding: 16px 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.875rem;
+    padding: 12px 29px;
 }
 
 ul li {
+    color: #fff;
     cursor: pointer;
+    font-family: "Montserrat", sans-serif;
     list-style: none;
     padding: 12px 8px 12px 50px;
     position: relative;
@@ -52,7 +67,6 @@ ul li::before {
 }
 
 ul li.checked {
-    color: #555;
     text-decoration: line-through;
 }
 
@@ -62,8 +76,8 @@ ul li.checked::before {
 
 ul li span {
     border-radius: 50%;
-    color: #555;
-    font-size: 22px;
+    color: #fff;
+    font-size: 1.875rem;
     height: 40px;
     line-height: 40px;
     position: absolute;
@@ -74,5 +88,5 @@ ul li span {
 }
 
 ul li span:hover {
-    background: #edeef0;
+    color: #D8D8D8;
 }
